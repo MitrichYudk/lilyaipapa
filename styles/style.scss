@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+$bgcolor: #1e384d;
+$textColor: #9ab9d5;
+
+
+body {
+    background-color: $bgcolor;
+}
+.topHeader {
+    
+    h1 {
+        
+        font-size: 24px;
+        text-align: center;
+        margin-top: 30px;
+        &:hover {
+            transform: scale(1.05);
+            transition-duration: 0.30s;
+        }
+        
+        a {
+        text-decoration: none;
+        color: $textColor;
+
+        
+    }
+    }
+    img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+hr {
+    width: 250px;
+    height: 1px;
+    background-color: $textColor;
+    // color: $textColor;
+    margin-top: 30px;
+    &:hover {
+            // transform: scale(1.05);
+            width: 400px;
+            transition-duration: 0.30s;
+        }
+
+}
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #c7d6e4;
+    text-align: center;
+    // &:hover {
+    //         transform: scale(1.05);
+    //         transition-duration: 0.30s;
+    //     }
+line-height: 0.5em;
+    margin: 15px 0 3px 0;
+}
+}
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+.menu {
+     
+    & ul {
+        display: flex;
+        justify-content: space-around;
+        & li {
+            list-style-type: none;
+             &:hover {
+            transform: scale(1.1);
+            transition-duration: 0.30s;
+            
+        }
+            & a {
+                text-decoration: none;
+                color: $textColor;
+                &:hover, &:active {
+                    color: #c7d6e4;
+                }
+            }
+           
+        }
+       
+    }
+}
+
+.bottomHeader {
+    text-align: center;
+    &:hover {
+   transform: scale(1.1);
+  transition-duration: 0.25s;
+}
+}
+.tel {
+    text-decoration: none;
+    color: #c7d6e4;
+    font-size: 24px;
+    
+}
+
